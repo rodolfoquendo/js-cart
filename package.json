@@ -1,0 +1,33 @@
+{
+  "name": "@insignia-education/js-cart",
+  "version": "1.0.1",
+  "description": "THIS IS DEPRECATED use @rodolfoquendo/js-cart",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "sass --style=compressed --force scss/index.scss:dist/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insignia-education/js-cart.git"
+  },
+  "author": "Insignia Education",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insignia-education/js-cart/issues"
+  },
+  "homepage": "https://github.com/insignia-education/js-cart#readme",
+  "dependencies": {
+    "@rodolfoquendo/js-core": "*",
+    "@rodolfoquendo/js-notifications": "*",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^3.10.2",
+    "ts-jest": "^29.2.5"
+  }
+}
